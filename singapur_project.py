@@ -70,7 +70,6 @@ if selected== "data_frame":
         except:
             st.warning("No Data in this filter")
            
-           
 if selected=="analysis" :
     with st.form(key = 'form',clear_on_submit=False):
         k=df.head(3)
@@ -84,8 +83,8 @@ if selected=="analysis" :
         st.plotly_chart(fig,use_container_width=True) 
         
         if st.form_submit_button('px.area'):
-            pass
-            # st.write(data,use_container_width=True)           
+            # pass
+            st.write(data,use_container_width=True)           
            
            
            
