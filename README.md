@@ -1,5 +1,4 @@
 # Singapore-Resale-Flat-Prices-Predicting
-Singapore  Resale Flat Prices Predicting.
 
 **Skills take away From This Project :** Data Wrangling, EDA, Model Building, Model Deployment.
 
